@@ -1,0 +1,10 @@
+.sliderCont {
+  display: flex;
+  align-items: center;
+  width: 500px;
+  height: 200px;
+}
+.sliderCont_Img {
+  width: 200px;
+  height: 200px;
+}/*# sourceMappingURL=slider.css.map */
