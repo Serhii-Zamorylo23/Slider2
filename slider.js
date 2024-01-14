@@ -9,11 +9,11 @@ next.addEventListener('click',()=>{
         imgNow=0
     } else{
         imgNow+=1
-    }
+    };
     img.src=`/img/${imges[imgNow]}`;
-}),
+});
 back.addEventListener('click',()=>{
-    if(imgNow=imges.length==0){
+    if(imgNow==imges.length==0){
         imgNow=imges.length-1
     } else{
         imgNow-=1

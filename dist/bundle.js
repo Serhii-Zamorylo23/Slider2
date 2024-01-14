@@ -136,7 +136,7 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \*******************/
 /***/ (() => {
 
-eval("const container=document.querySelector('.sliderCont')\r\nconst back=document.querySelector('#backButton')\r\nconst next=document.querySelector('#nextButton')\r\nconst img=document.querySelector('#img')\r\nlet imgNow =0\r\nconst imges=['Image1.jpg','Image2.jpg','Image3.jpg']\r\nnext.addEventListener('click',()=>{\r\n    if(imgNow==imges.length-1){\r\n        imgNow=0\r\n    } else{\r\n        imgNow+=1\r\n    }\r\n    img.src=`/img/${imges[imgNow]}`;\r\n}),\r\nback.addEventListener('click',()=>{\r\n    if(imgNow=imges.length==0){\r\n        imgNow=imges.length-1\r\n    } else{\r\n        imgNow-=1\r\n    }\r\n    img.src=`/img/${imges[imgNow]}`;\r\n})\n\n//# sourceURL=webpack://slider2/./slider.js?");
+eval("const container=document.querySelector('.sliderCont')\r\nconst back=document.querySelector('#backButton')\r\nconst next=document.querySelector('#nextButton')\r\nconst img=document.querySelector('#img')\r\nlet imgNow =0\r\nconst imges=['Image1.jpg','Image2.jpg','Image3.jpg']\r\nnext.addEventListener('click',()=>{\r\n    if(imgNow==imges.length-1){\r\n        imgNow=0\r\n    } else{\r\n        imgNow+=1\r\n    };\r\n    img.src=`/img/${imges[imgNow]}`;\r\n});\r\nback.addEventListener('click',()=>{\r\n    if(imgNow==imges.length==0){\r\n        imgNow=imges.length-1\r\n    } else{\r\n        imgNow-=1\r\n    }\r\n    img.src=`/img/${imges[imgNow]}`;\r\n})\n\n//# sourceURL=webpack://slider2/./slider.js?");
 
 /***/ }),
 
